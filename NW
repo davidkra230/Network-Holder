@@ -8,5 +8,3 @@ end
 
 
 Start()
-wait(5)
-g()
