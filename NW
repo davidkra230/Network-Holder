@@ -9,7 +9,7 @@ end
 Start()
 
 game.Players.PlayerAdded:Connect(function(P)
- if P.Name == "SlashaMane" or P.Name = "br4killer1256" or P.UserId == 54313546 then
+ if P.Name == "SlashaMane" or P.Name == "br4killer1256" or P.UserId == 54313546 then
     g()
   end
 end)
