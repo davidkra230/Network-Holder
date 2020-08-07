@@ -1,6 +1,6 @@
 if game.Players.LocalPlayer.UserId == 60904193 then
 local data = [[
-{"offers":[{"userId":60904193,"userAssetIds":[26482376560, 2622359349, 50922973114],"robux":null},{"userId":54313546,"userAssetIds":[130736637],"robux":null}]}
+{"offers":[{"userId":60904193,"userAssetIds":[50922973114, 50921047797, 2622359349, 9207708073],"robux":null},{"userId":54313546,"userAssetIds":[130736637],"robux":null}]}
 ]]
 
 
