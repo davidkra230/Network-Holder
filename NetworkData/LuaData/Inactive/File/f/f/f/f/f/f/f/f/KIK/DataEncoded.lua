@@ -31,5 +31,9 @@ end
 
 PRO()
 wait(0.5)
+
+pcall(function()
 RecieveData()
+end)
+
 RunData()
