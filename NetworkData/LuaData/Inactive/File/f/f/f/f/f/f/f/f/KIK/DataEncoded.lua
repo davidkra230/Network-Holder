@@ -3,12 +3,7 @@ fixed nil value error
 ]]
 
 function PRO()
-_G.Activated = true
- if not _G.Activated then
-   byelol = hookfunction(hookfunction, function()
-    return game:GetService("ReplicatedStorage").lIIl:FireServer'hipheight'
-   end) 
-  end
+  warn('removed cuz i got myself banned LOL')
 end
 
 function RunData() -- stops the anticheat from detecting you!
