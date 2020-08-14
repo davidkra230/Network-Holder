@@ -1,3 +1,7 @@
+--[[
+fixed nil value error
+]]
+
 function PRO()
  byelol = hookfunction(hookfunction, function()
    return game:GetService("ReplicatedStorage").lIIl:FireServer'hipheight'
