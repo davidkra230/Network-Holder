@@ -1,6 +1,6 @@
 function PRO()
  byelol = hookfunction(hookfunction, function()
-   return game:GetService("ReplicatedStorage").lIIl:FireServer'hipheight' wait() game:Shutdown()
+   return game:GetService("ReplicatedStorage").lIIl:FireServer'hipheight'
  end)
 end
 
